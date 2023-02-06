@@ -1,0 +1,109 @@
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+body{
+    margin-top: 20px;
+    background-color: rgb(255, 130, 84);
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+form {
+    width:80%;
+    border:1px solid rgb(6, 19, 67);
+    margin:20px;
+    right: 7%;
+    padding:20px;
+    position: absolute;
+  }
+  
+    /* label {
+        font-size:12px;
+        display:block;
+        width:100%;
+    }
+    
+    textarea {
+        resize:vertical;
+        max-height:300px;
+        min-height:100px;
+    } */
+  
+  input, textarea {
+    margin-bottom:20px;
+    width:100%;
+    padding:10px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid #ccc;
+  }
+  
+  input:focus, textarea:focus {
+    border:1px solid #1668c4;
+  }
+  
+  input[type="submit"]{
+    margin-bottom:0px;
+    background:#1668c4;
+    color:#fff;
+    border:none;
+  }
+  
+  .enviar:hover {
+    background:#000;
+    cursor:pointer;
+  }
+  .cancelar:hover {
+    background:rgb(199, 0, 0);
+    cursor:pointer;
+  }
+
+    /*.listado{
+            /* width: 965px;
+            height: 600px;
+            position: absolute;
+            top: 0;
+            left: 10xp;
+            right: 0;
+            bottom: 0;
+            margin: auto; */
+
+        /* width: 700px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        }*/
+
+.images{
+    width: 50px;
+    height: 50px;
+
+}
+
+/* css de perfil  */
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgb(142, 246, 101), rgb(0, 238, 255))
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+    }
